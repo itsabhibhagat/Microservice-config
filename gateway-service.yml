@@ -1,6 +1,11 @@
 spring:
   application:
     name: Gateway-Service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
 
   cloud:
     gateway:
